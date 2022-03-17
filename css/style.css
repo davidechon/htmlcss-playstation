@@ -65,37 +65,7 @@ blu-scuro: #161d3a; - Playstation-Now
   line-height: 30px;
   vertical-align: middle;
 }
-/* Jumbotron */
-#jumbotron{
-  height: 590px;
-  color: #ffffff;
-  position: relative;
-}
-.cs-jumbotron{
-  width: 50%;
-  position: absolute;
-  padding: 30px;
-  bottom: 50px;
-}
 
-#jumbotron .cs-thumb{
-  position: absolute;
-  width: 100%;
-  height: 590px;
-  top: 0;
-  left: 0;
-  z-index: -1;  
-}
-#jumbotron .cs-banner{
-  width: 50%;
-  margin-bottom: 30px;
-}
-#jumbotron h1{
-  margin-bottom: 40px;
-}
-#jumbotron p{
-  margin-bottom: 30px;
-}
 
 
 
@@ -111,6 +81,12 @@ blu-scuro: #161d3a; - Playstation-Now
 .btn-danger{
   background-color: #cb3e1e;
   border: #cb3e1e;
+}
+.text-primary{
+  color: #3168e2;
+}
+.text-secondary{
+  color: #3168e2;
 }
 
 /* Jumbotron */
@@ -152,8 +128,15 @@ blu-scuro: #161d3a; - Playstation-Now
 #playstation-5{
   
 }
-.wrapper{
+/* .wrapper{
   margin-top: 50px;
   text-align: center; 
+} */
+#playstation-5 .row{
+  justify-content: center;
+  align-items: flex-start;
 }
+
+
+
 
