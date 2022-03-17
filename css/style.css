@@ -104,6 +104,10 @@ blu-scuro: #161d3a; - Playstation-Now
 .btn{
   border-radius: 20px;
 }
+.btn-primary{
+  background-color: #3168e2;
+  border: #3168e2;
+}
 .btn-danger{
   background-color: #cb3e1e;
   border: #cb3e1e;
@@ -133,19 +137,22 @@ blu-scuro: #161d3a; - Playstation-Now
 .cs-img-wrapper img{
   position: relative;
   width: 160px;
-  padding: 5px;
+  padding: 2px;
   border-radius: 20px;
   overflow: hidden;
 }
 .cs-img-wrapper.cs-active{
   position: relative;
-  padding: 2px;
+  padding: 1px;
   border: 2px solid blue;
   border-radius: 20px;
   overflow: hidden;
 }
 /* Playstation-5 */
 #playstation-5{
+  
+}
+.wrapper{
   margin-top: 50px;
   text-align: center; 
 }
