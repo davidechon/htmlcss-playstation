@@ -49,6 +49,9 @@ blu-scuro: #161d3a; - Playstation-Now
 .cs-search{
   display: none;
 }
+
+/* Style */
+
 /* Header */
 #header-top{
   background-color: #000000;
@@ -84,7 +87,6 @@ blu-scuro: #161d3a; - Playstation-Now
   z-index: -1;  
 }
 #jumbotron .cs-banner{
-  
   width: 50%;
   margin-bottom: 30px;
 }
@@ -95,23 +97,56 @@ blu-scuro: #161d3a; - Playstation-Now
   margin-bottom: 30px;
 }
 
+
+
+/* Nuovo codice ******************* */
+/* General */
+.btn{
+  border-radius: 20px;
+}
+.btn-danger{
+  background-color: #cb3e1e;
+  border: #cb3e1e;
+}
+
+/* Jumbotron */
+#jumbo{
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+}
+.banner{
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+#jumbo p{
+  width: 30%;
+}
 /* Jumbotron-gallery */
-#jumbotron-gallery .container{
-  margin: 30px auto 100px;
+#jumbo-gallery .container{
+  margin: 30px auto 50px;
   }
-#jumbotron-gallery .cs-img-wrapper img{
-  border-radius: 10px;
+#jumbo-gallery .row{
+  justify-content: center;
+  align-items: center;
   }
-.cs-img-wrapper{
+
+.cs-img-wrapper img{
   position: relative;
   width: 160px;
-  border-radius: 30px;
+  padding: 5px;
+  border-radius: 20px;
   overflow: hidden;
 }
 .cs-img-wrapper.cs-active{
   position: relative;
-  padding: 5px;
+  padding: 2px;
   border: 2px solid blue;
   border-radius: 20px;
   overflow: hidden;
 }
+/* Playstation-5 */
+#playstation-5{
+  margin-top: 50px;
+  text-align: center; 
+}
+

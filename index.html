@@ -138,60 +138,67 @@
   <!-- /Header -->
   <!-- Main -->
   <main>
-    <section id="jumbotron" class="container-fluid">
-
-      <section class="cs-wrapper debug">
-        <img src="img/jumbo-bg.png" alt="thumb" class="img-fluid cs-thumb">
-        <div class="container cs-jumbotron">
-          <div class="cs-wrapper">
-            <img src="img/returnal-hero-banner-logo.png" alt="banner" class="cs-banner">
-            <h1>Rompi il cerchio</h1>
-            <p class="col-md-8">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico&comma; disponibile in esclusiva su <span class="text-uppercase">ps5</span></p>
-            <button class="btn cs-btn-red btn-lg" type="button">Acquista ora</button>
+     <!-- jumbotron -->
+    <div class="p-5 mb-4 bg-light rounded-3" id="jumbo">
+      <div class="container-fluid py-5 text-white">
+        <img src="img/returnal-hero-banner-logo.png" alt="banner logo" class="banner">
+        <h1 class="display-5">Rompi il cerchio</h1>
+        <p class="col-md-8 fs-6">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico&comma; disponibile in esclusiva su <span class="text-uppercase">ps5</span></p>
+        <button class="btn btn-danger btn-lg" type="button">Acquista ora</button>
+      </div>
+    </div> <!-- /jumbotron -->
+    <div id="jumbo-gallery" class="mb-4">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper cs-active">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
+            </div>
           </div>
-        </div> <!-- /jumbotron containrt -->
-      </section> <!-- /jumbotron -->
-      <!-- jumbotron-gallery -->
-      <section id="jumbotron-gallery">
-        <div class="container">
-          <div class="row gy-3">
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper cs-active">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
-              </div>
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
             </div>
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
-              </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
             </div>
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
-              </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
             </div>
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
-              </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
             </div>
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="img-fluid">
-              </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="cs-img-wrapper">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
             </div>
-            <div class="col-6 col-lg-2">
-              <div class="cs-img-wrapper">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet" class="img-fluid">
-              </div>
-            </div>
-          </div> <!-- /row jumbotron-gallery -->
-        </div> <!-- /container jumbotron-gallery -->
-      </section> <!-- /jumbotron-gallery -->
-
-    </section> <!-- /jumbotron ----------------->
+          </div>
+        </div>  <!-- /row jumbotron-gallery -->
+      </div> <!-- /container jumbotron-gallery -->
+    </div> <!-- /jumbotron-gallery -->
     
-    <section id="playstation-5"></section> <!-- /playstation-5 -->
+    <section id="playstation-5 debug">
+      <div class="container-fluid cs-container">
+        <div class="wrapper debug">
+          <p class="txt-blue text-uppercase"> PLAY HAS NON LIMITS</p>
+        <h2>Ecco la PlayStation 5</h2>
+        <p class="txt-grey">Tuffati nelle nuove possibili&aacute; di gioco completamente inaspettate</p>
+        </div> <!-- /wrapper txt -->
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6"></div>
+        </div>
+      </div> <!-- /container txt -->
+
+    </section> <!-- /playstation-5 -->
+
     <section id="games"></section> <!-- /games -->
     <section id="playstation-4"></section> <!-- /playstation-4 -->
     <section id="playstation-plus"></section> <!-- /playstation-plus -->
