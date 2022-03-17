@@ -88,6 +88,9 @@ blu-scuro: #161d3a; - Playstation-Now
 .text-secondary{
   color: #3168e2;
 }
+.bg-secondary{
+  background-color: #1f1f1f;
+}
 
 /* Jumbotron */
 #jumbo{
