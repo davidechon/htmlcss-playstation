@@ -32,6 +32,11 @@ blu-scuro: #161d3a; - Playstation-Now
   color:#ffffff;
   border-radius: 30px;
 }
+.cs-btn-red{
+  background-color: #cb3e1e;
+  color:#ffffff;
+  border-radius: 30px;
+}
 /* Icone */
 .lens img{
   height: 50%;
@@ -39,9 +44,6 @@ blu-scuro: #161d3a; - Playstation-Now
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-  /* line-height: 30px; */
-  /* vertical-align: middle; */
 }
 /* Search */
 .cs-search{
@@ -51,7 +53,6 @@ blu-scuro: #161d3a; - Playstation-Now
 #header-top{
   background-color: #000000;
   height: 30px;
-  ;
   position: relative;
 }
 #logo{
@@ -60,4 +61,57 @@ blu-scuro: #161d3a; - Playstation-Now
   right: 10px;
   line-height: 30px;
   vertical-align: middle;
+}
+/* Jumbotron */
+#jumbotron{
+  height: 590px;
+  color: #ffffff;
+  position: relative;
+}
+.cs-jumbotron{
+  width: 50%;
+  position: absolute;
+  padding: 30px;
+  bottom: 50px;
+}
+
+#jumbotron .cs-thumb{
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  top: 0;
+  left: 0;
+  z-index: -1;  
+}
+#jumbotron .cs-banner{
+  
+  width: 50%;
+  margin-bottom: 30px;
+}
+#jumbotron h1{
+  margin-bottom: 40px;
+}
+#jumbotron p{
+  margin-bottom: 30px;
+}
+
+/* Jumbotron-gallery */
+#jumbotron-gallery .container{
+  margin: 30px auto 100px;
+  }
+#jumbotron-gallery .cs-img-wrapper img{
+  border-radius: 10px;
+  }
+.cs-img-wrapper{
+  position: relative;
+  width: 160px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.cs-img-wrapper.cs-active{
+  position: relative;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  overflow: hidden;
 }
