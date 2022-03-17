@@ -101,7 +101,7 @@ blu-scuro: #161d3a; - Playstation-Now
 #jumbo p{
   width: 30%;
 }
-/* Jumbotron-gallery */
+/* Jumbo-gallery */
 #jumbo-gallery .container{
   margin: 30px auto 50px;
   }
@@ -120,14 +120,11 @@ blu-scuro: #161d3a; - Playstation-Now
 .cs-img-wrapper.cs-active{
   position: relative;
   padding: 1px;
-  border: 2px solid blue;
+  border: 2px solid #3168e2;
   border-radius: 20px;
   overflow: hidden;
 }
 /* Playstation-5 */
-#playstation-5{
-  
-}
 #playstation-5 .row{
   justify-content: center;
   align-items: flex-start;
@@ -144,12 +141,25 @@ blu-scuro: #161d3a; - Playstation-Now
   }
   .cs-active-ps5{
     position: relative;
-    text-align: center;
     padding: 1px;
     border-bottom: 2px solid #3168e2;
     overflow: hidden;
   }
 
+  /* Games */
+  #games{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top;
+  }
+/*  */
 
-
-
+.card img{
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.cs-card-title{
+  width: 50%;
+  border: 1px solid blue;
+}
