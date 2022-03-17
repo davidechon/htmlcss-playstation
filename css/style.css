@@ -128,14 +128,27 @@ blu-scuro: #161d3a; - Playstation-Now
 #playstation-5{
   
 }
-/* .wrapper{
-  margin-top: 50px;
-  text-align: center; 
-} */
 #playstation-5 .row{
   justify-content: center;
   align-items: flex-start;
 }
+#ps5-gallery .container{
+  margin: 50px auto;
+  }
+#ps5-gallery .row{
+  justify-content: space-between;
+  align-items: center;
+  }
+#ps5-gallery img{
+  width: 100px;
+  }
+  .cs-active-ps5{
+    position: relative;
+    text-align: center;
+    padding: 1px;
+    border-bottom: 2px solid #3168e2;
+    overflow: hidden;
+  }
 
 
 
