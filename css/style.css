@@ -115,7 +115,6 @@ blu-scuro: #161d3a; - Playstation-Now
 
 .cs-img-wrapper img{
   position: relative;
-  width: 160px;
   padding: 2px;
   border-radius: 20px;
   overflow: hidden;
@@ -152,17 +151,23 @@ blu-scuro: #161d3a; - Playstation-Now
   /* Games */
   #games{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: top;
+    background-position: cover;
+    background-origin: top;
   }
 /*  */
-
-.card img{
-  width: 160px;
-  height: 160px;
+#games-gallery .col{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cs-placeholder-hawks img{
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
   border-radius: 20px;
   overflow: hidden;
 }
-.cs-card-title{
+.cs-title{
   width: 50%;
-  border: 1px solid blue;
 }
