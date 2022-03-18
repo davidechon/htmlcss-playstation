@@ -53,16 +53,24 @@ display: none;
 /* Style */
 
 /* Header */
-#header-top{
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 1;
+}
+#top{
 background-color: #000000;
-height: 30px;
+height: 80px;
 position: relative;
 }
 #logo{
 position: absolute;
 width: 80px;
+top: 10px;
 right: 10px;
-line-height: 30px;
+line-height: 40px;
 vertical-align: middle;
 }
 
