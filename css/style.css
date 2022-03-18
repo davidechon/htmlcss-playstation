@@ -115,6 +115,7 @@ vertical-align: middle;
 margin-top: 140px;
 background-image: url(../img/jumbo-bg.png);
 background-position: top;
+
 }
 .banner{
 max-width: 250px;
@@ -170,8 +171,9 @@ width: 100px;
 /* Games */
 #games{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  background-position: cover;
-  background-origin: top;
+  background-origin: padding-box;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 /* Game-gallery */
 #games-gallery .col{
