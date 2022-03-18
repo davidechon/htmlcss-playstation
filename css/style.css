@@ -186,10 +186,20 @@ width: 100px;
   height: auto;
   border-radius: 20px;
   overflow: hidden;
+  border: 1px solid blue;
 }
-.cs-title{
-  width: 50%;
+/* Playstation-4 */
+
+#playstation-4 .cs-placeholder img{
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid greenyellow;
 }
+
+
 /* Playstation-Plus */
 #playstation-plus{
   background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
