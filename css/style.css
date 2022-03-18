@@ -85,6 +85,9 @@ background-color: #bebcbb;
 .bg-blue{
 background-color: #161d3a;
 }
+.bg-blue-light{
+background-color: #08469a;
+}
 
 /* Header */
 header{
@@ -205,4 +208,35 @@ width: 100px;
 #socials img{
   max-width: 80%;
   margin: 50px auto;
+}
+/* Footer */
+footer{
+  background-color: #08469a;
+  color: #ffffff;
+}
+#footer-top .row{
+  align-items: top;
+  border: 1px solid yellow;
+}
+#footer-top .logo-footer{
+  color: #fff;
+  font-size: 80px;
+}
+#footer-top .register{
+  color: #fff;
+  font-size: 5px;
+  margin-left: -30px;
+}
+#globe{
+  width: 20px;
+}
+#footer-top ul{
+  list-style: none;
+}
+#footer-top ul li{
+  padding-bottom: 10px;
+}
+#footer-top ul li a{
+  text-decoration: none;
+  color: #ffffff;
 }
