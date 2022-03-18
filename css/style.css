@@ -201,3 +201,8 @@ width: 100px;
   background-repeat: no-repeat;
   background-position: right top;
   }
+/* Socials */
+#socials img{
+  max-width: 80%;
+  margin: 50px auto;
+}
