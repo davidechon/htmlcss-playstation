@@ -82,6 +82,9 @@ background-color: #1f1f1f;
 .bg-grey{
 background-color: #bebcbb;
 }
+.bg-blue{
+background-color: #161d3a;
+}
 
 /* Header */
 header{
@@ -192,3 +195,9 @@ width: 100px;
   background-position: right top;
   }
 /* Playstation-Store */
+#playstation-now{
+  background-image: url(../img/ps-now-april-featured-image-block.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  }
