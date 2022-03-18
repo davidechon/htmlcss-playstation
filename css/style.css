@@ -90,10 +90,13 @@ border: #cb3e1e;
 color: #3168e2;
 }
 .text-secondary{
-color: #3168e2;
+color: #363636;
 }
 .bg-secondary{
 background-color: #1f1f1f;
+}
+.bg-grey{
+background-color: #bebcbb;
 }
 
 /* Jumbotron */
@@ -175,3 +178,10 @@ width: 100px;
 .cs-title{
   width: 50%;
 }
+/* Playstation-Plus */
+#jumbo{
+  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  }
