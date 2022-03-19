@@ -276,6 +276,10 @@ footer{
     font-size: 1.5rem;
     margin-bottom: 10%;
   }
+  #playstation-plus{
+    background-image: none;
+  }
+
   
   /* #footer-bottom p{
     font-size: 0.9rem;
