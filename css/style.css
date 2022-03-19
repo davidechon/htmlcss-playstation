@@ -121,9 +121,10 @@ background-position: top;
 max-width: 250px;
 margin-bottom: 30px;
 }
-#jumbo p{
+/* #jumbo p{
 width: 30%;
-}
+} */
+
 /* Jumbo-gallery */
 #jumbo-gallery .container{
 margin: 30px auto 50px;
