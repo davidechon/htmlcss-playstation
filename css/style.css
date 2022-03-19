@@ -1,62 +1,16 @@
 /* Reset */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.debug{
-border: 1px solid red;
-}
+/* .debug{
+  border: 1px solid red;
+} */
 /* General Rules */
-
-/* Palette */
-/* sfondi - testi - bottoni
-nero: #000000; - Header
-grigio-scuro: #363636; - Bottoni
-grigio-medio: #1f1f1f; - Games
-grigio-chiaro: #bebcbb;
-bianco: #ffffff;
-bianco-scuro: #d9dadc; - Playstation-Plus
-bianco-medio: #f5f5f5; - Playstation-Now
-rosso: #cb3e1e; - Bottoni
-blu: #3168e2; - Bottoni
-blu-medio: #08469a; - Footer
-blu-scuro: #161d3a; - Playstation-Now
-*/
-
-/* Bottoni */
-.cs-btn-dark-grey{
-background-color: #363636;
-color:#ffffff;
-border-radius: 30px;
-}
-.cs-btn-red{
-background-color: #cb3e1e;
-color:#ffffff;
-border-radius: 30px;
-}
-/* Icone */
-.lens img{
-height: 50%;
-position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-/* Search */
-.cs-search{
-display: none;
-}
-
-/* Style */
-
-
-/* Nuovo codice ******************* */
-/* General */
 section{
-padding: 60px 0;
+  padding: 60px 0;
 }
 h1{
   margin: 3% 0;
@@ -66,37 +20,57 @@ h2{
   margin-bottom: 3%;
 }
 .btn{
-border-radius: 20px;
-margin: 10px 0;
+  border-radius: 20px;
+  margin: 10px 0;
 }
 .btn-primary{
-background-color: #3168e2;
-border: #3168e2;
+  background-color: #3168e2;
+  border: #3168e2;
 }
 .btn-danger{
-background-color: #cb3e1e;
-border: #cb3e1e;
+  background-color: #cb3e1e;
+  border: #cb3e1e;
 }
 .text-primary{
-color: #3168e2;
+  color: #3168e2;
 }
 .text-secondary{
-color: #363636;
+  color: #363636;
 }
 .bg-secondary{
-background-color: #1f1f1f;
+  background-color: #1f1f1f;
 }
 .bg-grey{
-background-color: #bebcbb;
+  background-color: #bebcbb;
 }
 .bg-blue{
-background-color: #161d3a;
+  background-color: #161d3a;
 }
 .bg-blue-light{
-background-color: #08469a;
+  background-color: #08469a;
 }
-
-
+.cs-btn-dark-grey{
+  background-color: #363636;
+  color:#ffffff;
+  border-radius: 30px;
+}
+.cs-btn-red{
+  background-color: #cb3e1e;
+  color:#ffffff;
+  border-radius: 30px;
+}
+/* Icone */
+.lens img{
+  height: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Search */
+.cs-search{
+  display: none;
+}
 /* Header */
 header{
   position: fixed;
@@ -106,73 +80,65 @@ header{
   z-index: 1;
 }
 #top{
-background-color: #000000;
-height: 80px;
-position: relative;
+  background-color: #000000;
+  height: 80px;
+  position: relative;
 }
 #logo{
-position: absolute;
-width: 80px;
-top: 10px;
-right: 10px;
-line-height: 40px;
-vertical-align: middle;
+  position: absolute;
+  width: 80px;
+  top: 10px;
+  right: 10px;
+  line-height: 40px;
+  vertical-align: middle;
 }
 /* Jumbotron */
 #jumbo{
-margin-top: 140px;
-background-image: url(../img/jumbo-bg.png);
-background-position: top;
-
+  margin-top: 140px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
 }
-
-.banner{
-max-width: 250px;
-margin-bottom: 30px;
-} /* CHECK ************************** */
-
-
 /* Jumbo-gallery */
 #jumbo-gallery .container{
-margin: 30px auto 50px;
+  margin: 30px auto 50px;
 }
 #jumbo-gallery .row{
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .cs-img-wrapper img{
-position: relative;
-padding: 2px;
-border-radius: 20px;
-overflow: hidden;
+  position: relative;
+  padding: 2px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .cs-img-wrapper.cs-active{
-position: relative;
-padding: 1px;
-border: 2px solid #3168e2;
-border-radius: 20px;
-overflow: hidden;
+  position: relative;
+  padding: 1px;
+  border: 2px solid #3168e2;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .cs-img-wrapper:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
 }
 /* Playstation-5 */
 #playstation-5 .row{
-justify-content: center;
-align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
 #ps5-gallery .container{
-margin: 50px auto;
+  margin: 50px auto;
 }
 #ps5-gallery .row{
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 #ps5-gallery img{
-width: 100px;
+  width: 100px;
 }
 .cs-active-ps5{
   position: relative;
@@ -180,7 +146,6 @@ width: 100px;
   border-bottom: 2px solid #3168e2;
   overflow: hidden;
 }
-
 /* Games */
 #games{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -205,7 +170,7 @@ width: 100px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right top;
-  }
+}
 /* Playstation-Now */
 #playstation-now{
   background-image: url(../img/ps-now-april-featured-image-block.png);
@@ -219,7 +184,7 @@ width: 100px;
   margin: 50px auto;
 }
 /* Footer */
-footer{
+  footer{
   background-color: #08469a;
   color: #ffffff;
   padding: 20px;
@@ -243,7 +208,6 @@ footer{
 #globe{
   width: 20px;
 }
-
 #footer-top ul{
   margin-top: 10%;
   list-style: none;
@@ -261,7 +225,7 @@ footer{
 }
 #footer-bottom .logo-footer-down img{
   height: 50px;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 #footer-bottom a{
   color: #ffffff;
@@ -269,51 +233,47 @@ footer{
 #footer-bottom a:hover{
   color: #ffffff;
 }
-
-/* Media query */
-
+/* Media query *************************** */
 /* SM */
 @media screen and (max-width: 576px){
   h2{
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
+    }
   #playstation-5 p.text-secondary{
-    font-size: 1.5rem;
-    margin-bottom: 10%;
+  font-size: 1.5rem;
+  margin-bottom: 10%;
   }
   #playstation-plus{
-    background-image: none;
+  background-image: none;
   }
   #playstation-now{
-    background-image: none;
+  background-image: none;
   }
   #footer-top .row{
-    flex-direction: column;
+  flex-direction: column;
   }
   #footer-top .col-left{
-    margin-bottom: 10%;
+  margin-bottom: 10%;
   }
   #footer-top .col-right ul{
-    margin: 0;
+  margin: 0;
   }
 }
-
 /* MD */
 @media screen and (max-width: 768px){
   h2{
-    font-size: 2.5rem;
+  font-size: 2.5rem;
   }
   #playstation-4 p.text-secondary{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
   }
   #footer-bottom p{
-    font-size: 0.9rem;
+  font-size: 0.9rem;
   }
 }
 
-/* ******************************** */
+/* ********** WIP ********************* */
 /* Menu - Hover - Buttons */
-
 .dropdown ul li{
   text-align: center;
 }
