@@ -61,6 +61,7 @@ padding: 60px 0;
 
 .btn{
 border-radius: 20px;
+margin: 10px 0;
 }
 .btn-primary{
 background-color: #3168e2;
@@ -89,6 +90,10 @@ background-color: #161d3a;
 background-color: #08469a;
 }
 
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
 /* Header */
 header{
   position: fixed;
@@ -117,13 +122,12 @@ background-image: url(../img/jumbo-bg.png);
 background-position: top;
 
 }
+
 .banner{
 max-width: 250px;
 margin-bottom: 30px;
-}
-/* #jumbo p{
-width: 30%;
-} */
+} /* CHECK ************************** */
+
 
 /* Jumbo-gallery */
 #jumbo-gallery .container{
@@ -254,4 +258,12 @@ footer{
 }
 #footer-bottom a:hover{
   color: #ffffff;
+}
+
+/* Media query */
+/* MD */
+@media screen and (max-width: 768px){
+  h2{
+    font-size: 2.5rem;
+  }
 }
