@@ -235,7 +235,9 @@ footer{
 #globe{
   width: 20px;
 }
+
 #footer-top ul{
+  margin-top: 10%;
   list-style: none;
 }
 #footer-top ul li{
@@ -268,5 +270,8 @@ footer{
   }
   #playstation-4 p.text-secondary{
     font-size: 1.5rem;
+  }
+  #footer-bottom p{
+    font-size: 0.9rem;
   }
 }
