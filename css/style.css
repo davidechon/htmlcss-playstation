@@ -282,11 +282,15 @@ footer{
   #playstation-now{
     background-image: none;
   }
-
-  
-  /* #footer-bottom p{
-    font-size: 0.9rem;
-  } */
+  #footer-top .row{
+    flex-direction: column;
+  }
+  #footer-top .col-left{
+    margin-bottom: 10%;
+  }
+  #footer-top .col-right ul{
+    margin: 0;
+  }
 }
 
 /* MD */
