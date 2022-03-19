@@ -266,4 +266,7 @@ footer{
   h2{
     font-size: 2.5rem;
   }
+  #playstation-4 p.text-secondary{
+    font-size: 1.5rem;
+  }
 }
