@@ -268,20 +268,19 @@ footer{
 /* Media query */
 
 /* SM */
-/* @media screen and (max-width: 576px){
+@media screen and (max-width: 576px){
   h2{
     font-size: 2.5rem;
   }
-  p{
-
-  }
-  #playstation-4 p.text-secondary{
+  #playstation-5 p.text-secondary{
     font-size: 1.5rem;
+    margin-bottom: 10%;
   }
-  #footer-bottom p{
+  
+  /* #footer-bottom p{
     font-size: 0.9rem;
-  }
-} */
+  } */
+}
 
 /* MD */
 @media screen and (max-width: 768px){
