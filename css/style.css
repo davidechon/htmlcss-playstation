@@ -58,7 +58,13 @@ display: none;
 section{
 padding: 60px 0;
 }
-
+h1{
+  margin: 3% 0;
+}
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
 .btn{
 border-radius: 20px;
 margin: 10px 0;
@@ -90,10 +96,7 @@ background-color: #161d3a;
 background-color: #08469a;
 }
 
-h2{
-  font-size: 2.5rem;
-  margin-bottom: 3%;
-}
+
 /* Header */
 header{
   position: fixed;
@@ -263,6 +266,23 @@ footer{
 }
 
 /* Media query */
+
+/* SM */
+/* @media screen and (max-width: 576px){
+  h2{
+    font-size: 2.5rem;
+  }
+  p{
+
+  }
+  #playstation-4 p.text-secondary{
+    font-size: 1.5rem;
+  }
+  #footer-bottom p{
+    font-size: 0.9rem;
+  }
+} */
+
 /* MD */
 @media screen and (max-width: 768px){
   h2{
