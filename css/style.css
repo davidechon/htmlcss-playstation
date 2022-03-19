@@ -305,3 +305,16 @@ footer{
     font-size: 0.9rem;
   }
 }
+
+/* ******************************** */
+/* Menu - Hover - Buttons */
+
+.dropdown ul li{
+  text-align: center;
+}
+.ico-blue{
+  color: #3168e2;
+}
+.cs-drop-ico img{
+  height: 50px;
+}
