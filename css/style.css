@@ -120,6 +120,7 @@ header{
   height: 150px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .cs-img-wrapper img{
   position: relative;
@@ -154,15 +155,22 @@ header{
 #ps5-gallery .row{
   justify-content: space-between;
   align-items: center;
+  line-height: 1;
 }
-#ps5-gallery img{
-  width: 100px;
+#ps5-gallery .row{
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1;
 }
 .cs-active-ps5{
   position: relative;
   padding: 1px;
   border-bottom: 2px solid #3168e2;
   overflow: hidden;
+}
+#ps5-gallery .cs-ps5-gallery:hover{
+  opacity: 1!important;
+  border-bottom: 2px solid #3168e2;
 }
 /* Games */
 #games{
@@ -256,7 +264,7 @@ header{
 @media screen and (max-width: 576px){
   h2{
   font-size: 2.5rem;
-    }
+  }
   #playstation-5 p.text-secondary{
   font-size: 1.5rem;
   margin-bottom: 10%;
@@ -281,6 +289,17 @@ header{
 @media screen and (max-width: 768px){
   h2{
   font-size: 2.5rem;
+  }
+  #jumbo-gallery{
+    border: 1px solid blue;
+  }
+  #jumbo-gallery .container{
+    border: 1px solid red;
+  }
+  #jumbo-gallery .row{
+    
+    margin-bottom: 50px;
+    border: 10px solid violet;
   }
   #playstation-4 p.text-secondary{
   font-size: 1.5rem;
