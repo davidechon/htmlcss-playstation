@@ -292,16 +292,8 @@ header{
   h2{
   font-size: 2.5rem;
   }
-  #jumbo-gallery{
-    /* border: 1px solid blue; */
-  }
-  #jumbo-gallery .container{
-    /* border: 1px solid red; */
-  }
   #jumbo-gallery .row{
-    
     margin-bottom: 50px;
-    /* border: 10px solid violet; */
   }
   #playstation-4 p.text-secondary{
   font-size: 1.5rem;
