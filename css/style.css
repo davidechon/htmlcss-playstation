@@ -275,15 +275,18 @@ header{
 
 /* ********** WIP ********************* */
 /* Menu - Hover - Buttons */
-.dropdown ul li{
-  border: 1px solid red;
-  /* display: flex; */
-  float: left;
-  text-align: center;
-}
+
 .ico-blue{
   color: #3168e2;
 }
+.d-flex{
+  width: 80vw;
+  text-align: center;
+}
 .cs-drop-ico img{
-  height: 50px;
+  max-height: 80px;
+}
+.cs-drop-ico:hover{
+  color: #3168e2;
+  cursor: pointer;
 }
