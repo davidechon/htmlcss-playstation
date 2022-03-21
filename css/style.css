@@ -120,7 +120,8 @@ header{
   overflow: hidden;
 }
 .cs-img-wrapper:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: in0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
@@ -275,6 +276,9 @@ header{
 /* ********** WIP ********************* */
 /* Menu - Hover - Buttons */
 .dropdown ul li{
+  border: 1px solid red;
+  /* display: flex; */
+  float: left;
   text-align: center;
 }
 .ico-blue{
