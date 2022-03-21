@@ -5,9 +5,9 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* .debug{
+.debug{
   border: 1px solid red;
-} */
+}
 /* General Rules */
 section{
   padding: 60px 0;
@@ -64,7 +64,7 @@ h2{
   height: 50%;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
 /* Search */
@@ -280,7 +280,7 @@ header{
   color: #3168e2;
 }
 .d-flex{
-  width: 80vw;
+  /* width: 80vw; */
   text-align: center;
 }
 .cs-drop-ico img{

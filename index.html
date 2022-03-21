@@ -31,7 +31,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-start align-items-center">
                 <!-- dropdown left -->
                   <li class="nav-item dropdown">
                     <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -117,11 +117,13 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
-              <!-- /dropdown left -->
-              <!-- dropdown right -->
-              <ul class="navbar-nav align-items-center">
+            </div> <!-- /collapse left -->
+            <!-- /dropdown left -->
+            <!-- dropdown right -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav justify-content-end align-items-center">
                 <li class="nav-item dropdown">
-                  <a class="nav-link active dropdown-toggle debug" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     My Playstation
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -134,18 +136,19 @@
                 <li>
                   <button class="btn cs-btn-dark-grey" type="submit">Accedi</button>
                 </li>
+                <li>
+                  <form class="d-flex">
+                    <!-- <input class="cs-search form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <div class="lens">
+                      <img src="img/lens.svg" alt="lens" class="img-fluid">
+                    </div> <!-- lens -->
+                  </form>
+                </li>
                </ul>
-              <form class="d-flex">
-                <div class="lens">
-                  <img src="img/lens.svg" alt="lens">
-                </div> <!-- lens -->
-                <input class="cs-search form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              </form>
-              <!-- /dropdown right + search -->
-            </div>
-          </div>
+            </div><!-- /dropdown right + search -->
+          </div> <!-- /container-fluid -->
         </nav>
-      </div> <!-- navbar -->
+      </div> <!-- /#navbar -->
     </section> <!-- /header -->
   </header>
   <!-- /Header -->
