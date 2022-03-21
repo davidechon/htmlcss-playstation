@@ -143,7 +143,6 @@ header{
   top: -10px;
   border-radius: 20px;
   overflow: hidden;
-  
 }
 /* Playstation-5 */
 #playstation-5 .row{
@@ -156,16 +155,9 @@ header{
 #ps5-gallery .row{
   justify-content: space-between;
   align-items: center;
-  line-height: 1;
-}
-#ps5-gallery .row{
-  justify-content: space-between;
-  align-items: center;
-  line-height: 1;
+  position: relative;
 }
 .cs-active-ps5{
-  position: relative;
-  padding: 1px;
   border-bottom: 2px solid #3168e2;
   overflow: hidden;
 }
@@ -188,6 +180,15 @@ header{
   align-items: center;
 }
 #games-gallery .cs-radius{
+  border-radius: 20px;
+  overflow: hidden;
+}
+#games-gallery img:hover{
+  position: relative;
+  /* top: -10px; */
+  transform: scale(1.1);
+  transition-duration: 1s;
+  animation: ;
   border-radius: 20px;
   overflow: hidden;
 }
