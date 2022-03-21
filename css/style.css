@@ -71,6 +71,20 @@ h2{
 .cs-search{
   display: none;
 }
+.ico-blue{
+  color: #3168e2;
+}
+.d-flex{
+  /* width: 80vw; */
+  text-align: center;
+}
+.cs-drop-ico img{
+  max-height: 80px;
+}
+.cs-drop-ico:hover{
+  color: #3168e2;
+  cursor: pointer;
+}
 /* Header */
 header{
   position: fixed;
@@ -103,12 +117,13 @@ header{
   margin: 30px auto 50px;
 }
 #jumbo-gallery .row{
+  height: 150px;
   justify-content: center;
   align-items: center;
 }
 .cs-img-wrapper img{
   position: relative;
-  padding: 2px;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -116,15 +131,17 @@ header{
   position: relative;
   padding: 1px;
   border: 2px solid #3168e2;
+  box-shadow: 0 4px 50px 0 rgba(20, 16, 74, 0.2), 0 16px 20px 0 rgba(20, 16, 74,  0.19);
   border-radius: 20px;
   overflow: hidden;
 }
 .cs-img-wrapper:hover{
-  box-shadow: in0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  margin: 0 auto;
+  opacity: 1!important;
+  box-shadow: inset 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
   border-radius: 20px;
   overflow: hidden;
+  
 }
 /* Playstation-5 */
 #playstation-5 .row{
@@ -271,22 +288,4 @@ header{
   #footer-bottom p{
   font-size: 0.9rem;
   }
-}
-
-/* ********** WIP ********************* */
-/* Menu - Hover - Buttons */
-
-.ico-blue{
-  color: #3168e2;
-}
-.d-flex{
-  /* width: 80vw; */
-  text-align: center;
-}
-.cs-drop-ico img{
-  max-height: 80px;
-}
-.cs-drop-ico:hover{
-  color: #3168e2;
-  cursor: pointer;
 }
